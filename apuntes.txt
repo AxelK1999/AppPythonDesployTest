@@ -1,0 +1,17 @@
+project/
+│
+├── app.py                 # Archivo principal de la aplicación Flask
+├── controllers/
+├── models/
+├── static/                # Carpeta para archivos estáticos (CSS, JS, imágenes)
+│   ├── css/
+│   └── js/
+├── templates/             # Carpeta para plantillas HTML
+│   └── index.html
+└── requirements.txt       # Dependencias del proyecto (opcional)
+
+
+pyinstaller --onefile --icon=puntaje-de-credito.ico  --windowed app.py
+
+
+

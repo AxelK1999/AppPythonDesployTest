@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página HTML con Flask</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+    <body>
+        <h1>Bienvenido a Flask</h1>
+        <p>Esta es una página HTML generada por Flask.</p>
+        <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+    </body>
+</html>
+
